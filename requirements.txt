@@ -1,0 +1,10 @@
+fastapi>=0.100
+uvicorn
+pydantic>=2
+httpx
+numpy
+openai>=1.0
+tiktoken
+chromadb
+python-dotenv
+pytest
