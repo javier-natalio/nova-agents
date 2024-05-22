@@ -20,3 +20,6 @@ class ToolRegistry:
 
     def names(self) -> list[str]:
         return sorted(self._tools)
+
+    def unregister(self, name: str) -> None:
+        self._tools.pop(name, None)
