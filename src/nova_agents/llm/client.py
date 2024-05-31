@@ -20,3 +20,6 @@ class LLMClient:
         # Provider call is injected at runtime; stub keeps unit tests offline.
         text = prompt.strip()[:4000]
         return Completion(text=text, model=self.model, tokens=max(len(text) // 4, 1))
+
+    def complete_json(self, prompt: str) -> Completion:
+        return self.complete(prompt + "\nRespond with JSON only.")
