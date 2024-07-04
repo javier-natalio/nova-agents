@@ -25,3 +25,6 @@ class Retriever:
             scored.append(Hit(doc_id, text, score))
         scored.sort(key=lambda h: h.score, reverse=True)
         return scored[:k]
+
+    def count(self) -> int:
+        return len(self._docs)
