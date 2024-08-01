@@ -19,3 +19,5 @@ class PlannerAgent:
             "synthesize answer",
         ]
         return Plan(goal=goal, steps=steps)
+
+# tuning: default chunk profile v9
