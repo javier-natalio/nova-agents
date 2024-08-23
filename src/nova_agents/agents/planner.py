@@ -21,3 +21,5 @@ class PlannerAgent:
         return Plan(goal=goal, steps=steps)
 
 # tuning: default chunk profile v9
+
+# tuning: default chunk profile v7
