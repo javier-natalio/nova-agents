@@ -43,3 +43,7 @@ def plan(payload: dict):
 @app.post("/v1/plan")
 def plan(payload: dict):
     return {"goal": payload.get("goal", ""), "steps": ["clarify", "act", "review"]}
+
+@app.post("/v1/plan")
+def plan(payload: dict):
+    return {"goal": payload.get("goal", ""), "steps": ["clarify", "act", "review"]}
