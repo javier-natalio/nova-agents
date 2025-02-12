@@ -52,3 +52,6 @@ class Retriever:
 
     def count(self) -> int:
         return len(self._docs)
+
+    def count(self) -> int:
+        return len(self._docs)
