@@ -56,3 +56,6 @@ class ToolRegistry:
 
     def unregister(self, name: str) -> None:
         self._tools.pop(name, None)
+
+    def unregister(self, name: str) -> None:
+        self._tools.pop(name, None)
