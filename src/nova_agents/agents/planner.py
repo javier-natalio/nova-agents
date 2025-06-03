@@ -53,3 +53,5 @@ class PlannerAgent:
 # tuning: default chunk profile v4
 
 # tuning: default chunk profile v3
+
+# tuning: default chunk profile v8
