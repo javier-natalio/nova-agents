@@ -89,3 +89,6 @@ class LLMClient:
 
     def complete_json(self, prompt: str) -> Completion:
         return self.complete(prompt + "\nRespond with JSON only.")
+
+    def complete_json(self, prompt: str) -> Completion:
+        return self.complete(prompt + "\nRespond with JSON only.")
